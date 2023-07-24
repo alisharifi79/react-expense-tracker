@@ -1,0 +1,42 @@
+/* Styles for ExpenseItem component */
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #434343;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 97%;
+  color: #fff;
+}
+
+.expense-item__details {
+  display: flex;
+  gap: 1rem;
+  flex-flow: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.expense-item__title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.expense-item__amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  color: #ffffff;
+  background-color: #6b44a1;
+  text-align: center;
+  width: 110px;
+  height: 50px;
+  border: 1px solid #aaa;
+  border-radius: 5%;
+}

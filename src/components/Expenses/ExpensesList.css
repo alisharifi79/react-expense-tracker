@@ -1,0 +1,18 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background-color: rgb(29, 29, 29);
+  margin: 2rem auto;
+  width: 55rem;
+  max-width: 95%;
+}
+p{
+  color: white;
+  font-size: 20px;
+  padding: 10px 40px;
+  background-color: rgba(72, 69, 69, 0.603);
+  border-radius: 8px;
+}
